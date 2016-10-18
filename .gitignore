@@ -1,0 +1,8 @@
+# Files and directories created by pub
+.packages
+.pub/
+packages
+./bin/packages/blogs.json
+./json/blogs.json
+# Remove the following pattern if you wish to check in your lock file
+pubspec.lock
