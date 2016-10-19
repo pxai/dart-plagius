@@ -8,10 +8,10 @@ import 'packages/model/Blogs.dart';
 
 
 main(List<String> args) {
-  print('Hello world!');
 
   Blogs blogs = new Blogs();
 
+  // Loads a json file iinto a variable
   var json = JSON.decode(new File('json/blogs.json').readAsStringSync());
    print(json[0]);
 }
